@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+
+<html>
+<head style="backgound-color:red">
+  <meta http-equiv="CONTENT-TYPE" content="text/html; charset=UTF-8">
+  <title>Cachorro chupetão</title>
+  <link rel="stylesheet" href="mystyle.css">
+  <style>
+body{
+  background-color: bisque
+}
+
+button{
+  background: red;
+  padding: 32px 72px;
+  border-radius: 64px;
+  width: 512px;
+  height: 256px;
+  cursor: pointer;
+  font-size: large;
+}
+
+img {
+    display: block;
+    margin: auto;
+    width: 30%;
+}
+
+div{
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 456px;
+}
+
+</style>
+</head>
+<body>
+
+  <audio id="meuAudio" src="clickChupeta.mp3"></audio>
+
+  <div>
+    <button onclick="document.getElementById('meuAudio').play();">
+      Botão
+    </button>
+  </div>
+  <div>
+    <img src="https://i.pinimg.com/564x/f3/6b/fa/f36bfa3b60559e7da0014f91250abf66.jpg" height="80%" width="30%">
+  </div>
+</body>
+</html>
